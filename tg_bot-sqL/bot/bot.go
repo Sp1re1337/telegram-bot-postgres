@@ -8,7 +8,7 @@ import (
 )
 
 func StartBot() error {
-	bot, err := telego.NewBot("7639067110:AAGNdt2TGgoedxh9_0I8LlV0VBYZcvYyQlk")
+	bot, err := telego.NewBot("T_O_K_E_N")
 	if err != nil {
 		return nil
 	}
