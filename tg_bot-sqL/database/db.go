@@ -13,7 +13,7 @@ var conn *pgx.Conn
 func IninDB() error {
 	var err error
 
-	conn, err = pgx.Connect(context.Background(), "postgres://postgres:446086234@localhost:5432/DBB")
+	conn, err = pgx.Connect(context.Background(), "postgres://username:password@localhost:5432/telegram_bot_db")
 	if err != nil {
 		return err
 	}
